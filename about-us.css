@@ -1,0 +1,387 @@
+
+.wrapper{
+  width:100%;
+  margin:auto;
+  overflow: hidden;
+}
+
+
+
+
+#current{
+  border-bottom: 2px solid red;
+  color:red;
+}
+
+
+
+
+
+
+
+/*newsltter*/
+
+
+
+#newsletter{
+  background:gray;
+   padding: 10px; 
+  width:none;
+  color:white;
+  border-bottom:orange 5px solid;
+  min-height:70px;
+  
+  margin-top: 6%;
+  
+}
+
+
+#newsletter h3{
+          /* float:left;  */
+      /* margin-top:15px; */
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-top: 7px;
+}
+
+
+
+
+
+#newsletter form { 
+   /* margin-left: 70%;  */
+   float:right; 
+   margin-top:-40px;
+
+
+}
+
+
+
+
+#newsletter input{
+  width:240px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
+
+#newsletter .button_1 {
+  color:white;
+  background: red;
+}
+
+
+
+
+
+
+/*about-us*/
+
+#wrapper {
+       min-height:600px;
+       /* background:url(../img/pix1.jpg);  */
+       background-color: antiquewhite;
+       padding:20px;
+       background-size: cover;
+       
+
+
+}
+
+
+
+
+
+.dark-1{
+  color:black;
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+
+.dark-1 h3{
+  text-transform: uppercase;
+  margin-left: 40px;
+  color:white;
+  /* background: rgba(44, 66, 76, 0.7); */
+  background-color:#35424a;
+  width:130px;
+  padding: 10px;
+}
+
+
+
+
+
+.dark-1 p{
+  font-size:20px;
+  font-weight:200px;
+  /* background: rgba(44, 66, 76, 0.7); */
+  background-color:#35424a;
+  color:white;
+  margin-left: 30px;
+  margin-top:5%;
+  padding:10px;
+}
+
+/* dark-1 h3{
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+
+.dark-1 p .select{
+  color:gold;
+}
+
+
+.dark-1 figure img{
+  border:blue 1px solid;
+  width:400px;
+}
+
+
+
+
+.dark-2{
+    text-transform: uppercase;
+    margin-left: 55%;
+    color:white;
+    /* background: rgba(44, 66, 76, 0.7); */
+    background-color:#35424a;
+    width:45%;
+    margin-top:-30%;
+    border-bottom: blue 1px solid;
+    font-weight: 200px;
+    padding:10px;
+    
+  }
+
+  .dark-2 .brand{
+                margin-left:30px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+footer  {
+  padding:10px;
+  /* text-align: center; */
+  color:white;
+  background-color:#13044e;
+  font-weight:100px;
+  margin-top: 20px;
+
+  
+}
+
+footer p{
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) and (orientation:landscape){
+  .wrapper {
+      width:80%; 
+      margin:auto;
+  }
+}
+
+@media screen and (max-width:600px) and (orientation:portrait){
+  .wrapper{
+      width:80%; 
+      margin:auto;
+  }
+
+
+
+
+      
+
+/*newsltter*/
+
+  #newsletter{
+  background:gray;
+   padding: 10px; 
+  /* width:100%; */
+  color:white;
+  border-bottom:orange 5px solid;
+  min-height:150%;
+  margin-top: 20%;
+  
+  }
+
+
+  #newsletter h3{
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+
+
+
+
+  #newsletter form { 
+   /* margin-left: 70%;  */
+   float:right; 
+   margin-top:-2px;
+
+
+  }
+
+
+
+
+  #newsletter input{
+  width:240px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+  margin-top: 10px;
+  }
+
+
+
+
+
+  .dark-1 figure img{
+    border:blue 1px solid;
+    width:350px;
+    margin-left: -5px;
+    margin-top: -3%;
+  }
+  
+
+
+
+
+  .dark-1 p{
+    font-size:20px;
+    font-weight:200px;
+    /* background: rgba(44, 66, 76, 0.7); */
+    background-color:#35424a;
+    color:white;
+    margin-left: -2%;
+    margin-top:-3%;
+    padding:10px;
+    width:100%;
+  }
+  
+
+
+
+
+  
+
+.dark-2{
+  text-transform: uppercase;
+  margin-left: -2%;
+  color:white;
+  /* background: rgba(44, 66, 76, 0.7); */
+  background-color:#35424a;
+  width:100%;
+  margin-top:-3%;
+  border-bottom: blue 1px solid;
+  font-weight: 200px;
+  padding:10px;
+  
+}
+
+.dark-2 .brand{
+              margin-left:10px;
+}
+
+
+
+
+
+
+footer  {
+  padding:10px;
+  /* text-align: center; */
+  color:white;
+  background-color:#13044e;
+  font-weight:100px;
+  margin-top: -3%;
+
+  
+}
+
+
+
+/* .brand h3{
+  margin-top: 80%;
+  margin-left: 20%;
+}
+
+
+
+.dark-2 .brand p{
+
+  margin-left:20px;
+
+}
+
+ */
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+}
+
+@media(min-width:601px) and (max-width:768px){
+  .wrapper {
+      width:100%; 
+      margin:auto;
+  }
+}
+
+
+
+
+
+
+
+
+

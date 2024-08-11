@@ -1,0 +1,357 @@
+
+
+ .wrapper{
+  width:100%;
+  margin:auto;
+  overflow: hidden;
+}
+
+
+#current{
+  border-bottom: 2px solid red;
+  color:red;
+}
+
+
+
+
+
+
+
+
+
+/*courses*/
+
+#courses-offer{
+              min-height:500px;
+             /* background:url(../img/pix1.jpg);  */
+             background-color:antiquewhite;
+             background-position:center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position:center;
+              padding:20px;
+}
+
+#courses-offer h3{
+  text-transform: uppercase;
+  margin-top:-10px;
+  padding:20px;
+
+}
+
+
+#courses-offer .dark_1{
+                    background-color:#35424a;
+                    color:white;
+                    font-size: 15px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding:20px;
+                    margin-bottom:10px;
+                    font-weight:bold;
+
+}
+
+
+
+#courses-offer .dark_2{
+  background-color:#35424a;
+  color:white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:10px;
+  margin-bottom:10px;
+  margin-top:10px;
+  font-weight:bold;
+  width:300px;
+
+}
+
+
+#courses-offer .dark_3{
+  background-color:#35424a;
+  color:white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:10px;
+  margin-bottom:10px;
+  margin-top:10px;
+  font-weight:bold;
+  width:300px;
+
+}
+
+
+
+#courses-offer figure img{
+                      width:400px;
+                      margin-left:70%;
+                      margin-top:-45%;
+                      border:blue 1px solid;
+}
+
+
+
+
+
+
+/*newsltter*/
+
+
+
+#newsletter{
+   background:gray;
+    padding: 15px; 
+   width:none;
+   color:white;
+   border-bottom:orange 5px solid;
+   min-height:70px;
+   /* font-size: 20px;
+   margin-top: 15px; */
+   
+ }
+ 
+ 
+ #newsletter h3{
+           /* float:left;  */
+       /* margin-top:15px; */
+       text-transform: uppercase;
+ }
+ 
+ 
+ 
+ 
+ 
+ #newsletter form { 
+    /* margin-left: 70%;  */
+    float:right; 
+    margin-top:-40px;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ #newsletter input{
+   width:240px;
+   text-align: center;
+   border-bottom: 2px solid white;
+   font-size: 18px;
+   margin-top: 2opx;
+ }
+ 
+ 
+ 
+ 
+ #newsletter .button_1 {
+   color:white;
+   background: red;
+ }
+ 
+ 
+ 
+ 
+ 
+ /*footer*/
+
+footer  {
+  padding:10px;
+  /* text-align: center; */
+  color:white;
+  background-color:#13044e;
+  font-weight:100px;
+  margin-top: 10px;
+
+  
+}
+
+footer p{
+  text-align: center;
+
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) and (orientation:landscape){
+  .wrapper {
+      width:80%; 
+      margin:auto;
+  }
+}
+
+@media screen and (max-width:600px) and (orientation:portrait){
+  .wrapper{
+      width:80%; 
+      margin:auto;
+  }
+
+
+
+
+  
+#courses-offer h3{
+  text-transform: uppercase;
+  margin-top:20%;
+  padding:20px;
+
+}
+
+
+
+
+
+#courses-offer .h3{
+  margin-top:-5%;
+  margin-left: 20px;
+}
+
+
+
+
+  
+#courses-offer .dark_2{
+  background-color:#35424a;
+  color:white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:10px;
+  margin-bottom:10px;
+  margin-top:10px;
+  font-weight:bold;
+  width:300px;
+  margin-left: 30px;
+
+}
+
+
+
+
+
+#courses-offer .dark_3{
+  background-color:#35424a;
+  color:white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:10px;
+  margin-bottom:10px;
+  margin-top:10px;
+  font-weight:bold;
+  width:300px;
+  margin-left: 30px;
+
+}
+
+
+
+#courses-offer figure img{
+                      width:400px;
+                      margin-left:5%;
+                      margin-top:3%;
+                      border:blue 1px solid;
+                      width: 90%;
+}
+
+
+
+
+/*newsltter*/
+
+#newsletter{
+  background:gray;
+   padding: 15px; 
+  width:none;
+  color:white;
+  border-bottom:orange 5px solid;
+  min-height:100px;
+  /* font-size: 20px;
+  margin-top: 15px; */
+  
+}
+
+
+#newsletter h3{
+          /* float:left;  */
+      /* margin-top:15px; */
+      text-transform: uppercase;
+}
+
+
+
+
+
+#newsletter form { 
+   /* margin-left: 70%;  */
+   float:right; 
+   margin-top:10px;
+
+
+}
+
+
+
+
+#newsletter input{
+  width:240px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+  margin-top: 2opx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer  {
+  padding:10px;
+  /* text-align: center; */
+  color:white;
+  background-color:#13044e;
+  font-weight:100px;
+  margin-top: -3%;
+
+  
+  }
+
+
+
+}
+
+
+@media(min-width:601px) and (max-width:768px){
+  .wrapper {
+      width:100%; 
+      margin:auto;
+  }
+}
+
+  
+  
+
+
+
+
+
+
+ 
+ 

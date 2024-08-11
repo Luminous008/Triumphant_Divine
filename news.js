@@ -1,0 +1,7 @@
+
+
+
+
+function news(){
+    alert(" Sent ");
+}

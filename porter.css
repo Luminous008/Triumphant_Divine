@@ -1,0 +1,79 @@
+.wrapper{
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+  }
+
+
+  #current{
+    border-bottom: 2px solid red;
+    color:red;
+  }
+  
+
+
+  .wrapper h2{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10%;
+  }
+  
+  
+  /* header {
+    background-color:blue;
+    padding:20px;
+    border-bottom: gold 5px solid;
+  }
+  
+  
+  
+  header h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+   /* margin-top: 10px;
+    margin-bottom: 10px;*/
+  
+  }
+  
+  /* header h3:hover{
+   color:grey:
+  }
+  
+  
+  header h3 .highlight {
+    color:gold;
+  }
+  
+  
+  header nav ul {
+          float:right;
+          list-style:none;
+          margin-top: -35px;
+          text-transform: uppercase;
+           */
+          
+  }
+   */
+/*   
+  header nav ul li {
+    display:inline;
+    margin-left:5px;
+    
+  }
+  
+  header nav ul a{
+    color:white;
+    text-decoration: none;
+  }
+  
+  
+  header nav ul .current a{
+    color:gold;
+  }
+  
+  header a:hover{
+    color:grey;
+  } */
+
+

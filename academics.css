@@ -1,0 +1,310 @@
+
+ .wrapper{
+  width:100%;
+  margin:auto;
+  overflow: hidden;
+}
+
+
+#current{
+  border-bottom: 2px solid red;
+  color:red;
+}
+
+
+
+
+  /*academics*/
+
+
+  #academics {
+            min-height:500px;
+            /* background:url(../img/pix2.jpg); */
+            background-color:antiquewhite
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding:20px;  
+  }
+
+
+    
+  #academics h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    color:white;
+    /* background:rgba(44, 66, 78, 0.7); */
+    background-color:#35424a;
+    width:130px; 
+    margin-top:10px;
+    padding: 10px;
+}
+
+
+  
+  #academics figure img{
+    border:blue 1px solid;
+    width:400px;
+}
+
+
+  
+  
+  #academics p{
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: bold;
+           font-size: 20px;
+           color:white;
+           /* background-color: rgba(44, 66, 58, 0.7); */
+           background-color:#35424a;
+           width:1000px;
+           margin-left: 40px;
+           margin-top:5%;
+           padding: 10px;
+            
+  }
+  
+
+  #academics p .select{
+                       color:gold;
+  }
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/*newsltter*/
+
+
+
+#newsletter{
+    background:gray;
+     padding: 15px; 
+    width:none;
+    color:white;
+    border-bottom:orange 5px solid;
+    min-height:70px;
+    /* font-size: 20px;
+    margin-top: 15px; */
+    
+}
+
+
+#newsletter h3{
+            /* float:left;  */
+        /* margin-top:15px; */
+        text-transform: uppercase;
+}
+
+
+
+
+
+#newsletter form { 
+     /* margin-left: 70%;  */
+     float:right; 
+     margin-top:40%;
+
+
+}
+
+
+ 
+
+#newsletter input{
+    width:240px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    margin-top: 2opx;
+}
+
+
+
+
+#newsletter .button_1 {
+    color:white;
+    background: red;
+}
+
+
+
+
+
+
+
+footer  {
+  padding:10px;
+  /* text-align: center; */
+  color:white;
+  background-color:#13044e;
+  font-weight:100px;
+  margin-top: 10px;
+
+  
+}
+
+footer p{
+  text-align: center;
+
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) and (orientation:landscape){
+  .wrapper {
+      width:80%; 
+      margin:auto;
+  }
+}
+
+@media screen and (max-width:600px) and (orientation:portrait){
+  .wrapper{
+      width:80%; 
+      margin:auto;
+  }
+
+
+
+   
+  #academics p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    font-size: 20px;
+    color:white;
+    /* background-color: rgba(44, 66, 58, 0.7); */
+    background-color:#35424a;
+    width:100%;
+    margin-left: 10px;
+    margin-top:5%;
+    padding: 10px;
+     
+}
+
+
+
+
+
+#academics p .select{
+  color:gold;
+}
+
+
+
+
+
+
+/*newsltter*/
+
+
+
+#newsletter{
+  background:gray;
+   padding: 15px; 
+  width:100%;
+  color:white;
+  border-bottom:orange 5px solid;
+  min-height:100%;
+  /* font-size: 20px;
+  margin-top: 15px; */
+  
+}
+
+
+#newsletter h3{
+          /* float:left;  */
+      margin-top:15px;
+      text-transform: uppercase;
+}
+
+
+
+#newsletter form { 
+   margin-left: 20%;
+   /* float:right;  */
+   margin-top:40%;
+
+
+}
+
+
+#newsletter input{
+  width:240%;
+  text-align: center;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+  margin-top: 2opx;
+}
+
+
+
+
+
+footer  {
+  padding:10px;
+  /* text-align: center; */
+  color:white;
+  background-color:#13044e;
+  font-weight:100px;
+  margin-top: -3%;
+
+  
+}
+
+
+}
+
+@media(min-width:601px) and (max-width:768px){
+  .wrapper {
+      width:100%; 
+      margin:auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,351 @@
+.wrapper{
+  width:100%;
+  margin:auto;
+  overflow: hidden;
+}
+
+
+#current{
+  border-bottom: 2px solid red;
+  color:red;
+}
+
+
+
+
+
+
+
+/*admission*/
+
+#admission{
+  min-height:600px;
+  /* background:url(../img/pix13.jpg); */
+  background-color:antiquewhite;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding:20px;
+}
+
+#admission h3{
+  font-size: 20px;
+   font-weight:bold;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   margin-left:40px;
+   /* background: rgba(44, 66, 67, 0.7); */
+   background-color:#35424a;
+   width:230px;
+   color:white;
+   padding: 10px;
+}
+
+
+
+#admission figure img{
+  width:400px;
+  border:blue 1px solid;
+}
+
+
+
+
+#admission p{
+  font-size: 15px;
+  font-weight:normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  padding: 10px;
+  margin-bottom: 20px;
+  
+ 
+}
+
+.adjust{
+        margin-left:30px;
+        /* margin-top:-30%;  */
+        background-color: grey;
+        color:white;
+        width: 1000px;
+        /* background: rgba(44, 66, 67, 0.7); */
+        background-color:#35424a;
+        font-size: 25px;
+        margin: left 20px;
+
+
+}
+
+
+#admission #quote{
+                 background-color:#35424a;
+                  color:white;
+                  margin-left:68%;
+                  width:30%;
+                  margin-top:-40%;
+                  padding:10px;
+}
+
+
+#admission .brand {
+                    margin-left: 20px;
+                    margin-top:20px;
+                    margin-bottom:20px;
+                    
+}
+
+
+
+
+
+
+/*newsltter*/
+
+
+
+#newsletter{
+    background:gray;
+     padding: 15px; 
+    width:none;
+    color:white;
+    border-bottom:orange 5px solid;
+    min-height:70px;
+    /* font-size: 20px;*/
+    margin-top: 30px;
+    
+  }
+  
+  
+  #newsletter h3{
+            /* float:left;  */
+        /* margin-top:15px; */
+        text-transform: uppercase;
+  }
+  
+  
+  
+  
+  
+  #newsletter form { 
+     /* margin-left: 70%;  */
+     float:right; 
+     margin-top:-40px;
+  
+  
+  }
+  
+  
+  
+  
+  #newsletter input{
+    width:240px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    margin-top: 2opx;
+  }
+  
+  
+  
+  
+  #newsletter .button_1 {
+    color:white;
+    background: red;
+  }
+  
+  
+  
+  
+  
+  /*footer*/
+
+footer  {
+  padding:10px;
+  /* text-align: center; */
+  color:white;
+  background-color:#13044e;
+  font-weight:100px;
+  margin-top: 10px;
+
+  
+}
+
+footer p{
+  text-align: center;
+
+  padding: 10px;
+}
+  
+
+
+
+
+
+
+@media screen and (max-width:600px) and (orientation:landscape){
+  .wrapper {
+      width:80%; 
+      margin:auto;
+  }
+}
+
+@media screen and (max-width:600px) and (orientation:portrait){
+  .wrapper{
+      width:80%; 
+      margin:auto;
+  }
+
+
+
+
+
+  #admission h3{
+    font-size: 20px;
+     font-weight:bold;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+     margin-left:8px;
+     /* background: rgba(44, 66, 67, 0.7); */
+     background-color:#35424a;
+     width:230px;
+     color:white;
+     padding: 10px;
+     margin-top: 30%;
+  }
+
+
+
+
+
+  .adjust{
+    margin-left:-3%;
+    /* margin-top:-30%;  */
+    background-color: grey;
+    color:white;
+    width: 100%;
+    /* background: rgba(44, 66, 67, 0.7); */
+    background-color:#35424a;
+    font-size: 30px;
+    
+
+
+}
+
+
+
+
+#admission #quote{
+  background-color:#35424a;
+   color:white;
+   margin-left:-3%;
+   width:100%;
+   margin-top:2%;
+   padding:10px;
+}
+
+
+#admission .brand {
+     margin-left: 20px;
+     margin-top:5%;
+     margin-bottom:20px;
+     
+}
+
+
+
+
+
+
+/*newsltter*/
+
+
+
+#newsletter{
+background:gray;
+padding: 15px; 
+width:100%;
+color:white;
+border-bottom:orange 5px solid;
+min-height:150%;
+/* font-size: 20px;*/
+margin-top: 10px;
+
+}
+
+
+#newsletter h3{
+/* float:left;  */
+/* margin-top:15px; */
+text-transform: uppercase;
+font-size: 20px;
+}
+
+
+
+
+
+#newsletter form { 
+/* margin-left: 70%;  */
+float:right; 
+margin-top:10px;
+
+
+}
+
+
+
+
+#newsletter input{
+width:240px;
+text-align: center;
+border-bottom: 2px solid white;
+font-size: 18px;
+margin-top: 2opx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+   
+  
+
+
+
+footer  {
+  padding:10px;
+  /* text-align: center; */
+  color:white;
+  background-color:#13044e;
+  font-weight:100px;
+  margin-top: -3%;
+
+  
+}
+
+
+}
+
+@media(min-width:601px) and (max-width:768px){
+  .wrapper {
+      width:100%; 
+      margin:auto;
+  }
+}
+
+  
